@@ -1,7 +1,7 @@
 /* BASE */
 const elements = {
     numbersBtns: document.querySelectorAll('.normal'),
-    input: document.querySelector('.input'),
+    input: document.querySelector('.input-content'),
     removeBtn: document.querySelector('.remove'),
     operationsBtns: document.querySelectorAll('.operation'),
     equalBtn: document.querySelector('.submit'),
