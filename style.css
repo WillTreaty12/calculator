@@ -79,10 +79,17 @@ ul {
   border: none;
   font-size: var(--main-font-size);
   height: 10rem;
-  padding-left: 4rem;
   margin: 0.5rem;
   background-color: white;
   border-radius: 0.5rem;
+  position: relative;
+}
+
+.input-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .submit {
